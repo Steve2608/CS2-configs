@@ -7,6 +7,7 @@ $cs2_dir="C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Of
 
 cd $cs2_dir
 New-Item -Path startup.cfg -ItemType SymbolicLink -Value "${config_dir}\startup.cfg"
+New-Item -Path nade_practice.cfg -ItemType SymbolicLink -Value "${config_dir}\nade_practice.cfg"
 ```
 
 - add `+exec startup.cfg` to your cs2 launch options
